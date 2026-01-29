@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",               // Must be esnext or es2015 for bundler
+    "moduleResolution": "bundler",    // Works with esnext
+    "allowImportingTsExtensions": true,
+    "noEmit": true,                    // Required for allowImportingTsExtensions
+    "strict": true
+  }
+}
